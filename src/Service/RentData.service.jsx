@@ -25,7 +25,7 @@ const cars = [
       price: '$45/day',
       seats: 5,
       transmission: 'Automatic',
-      image: ' ',
+      image: '/src/assets/nissan-altima.jpg',
     },
     {
       id: 10,
@@ -34,7 +34,7 @@ const cars = [
       price: '$35/day',
       seats: 5,
       transmission: 'Automatic',
-      image: 'https://www.hyundaiusa.com/us/en/images/vehicles/elantra/gallery/2022-elantra-gallery-16.jpg',
+      image: '/src/assets/hyundai-elantra.jpg',
     },
     {
       id: 11,
@@ -43,7 +43,7 @@ const cars = [
       price: '$38/day',
       seats: 5,
       transmission: 'Automatic',
-      image: 'https://www.kia.com/us/content/dam/kia/us/en/images/vehicles/optima/2020/2020-kia-optima-mojave-sand.jpg',
+      image: '/src/assets/kiaOptima.jpg',
     },
     {
       id: 12,
@@ -52,7 +52,7 @@ const cars = [
       price: '$33/day',
       seats: 5,
       transmission: 'Manual',
-      image: 'https://www.mazdausa.com/siteassets/vehicles/2022/m3/2022-mazda3-sedan-w2-2201-pp-c.jpg',
+      image: '/src/assets/mazda3.jpg',
     },
   
     // Sports
@@ -63,7 +63,7 @@ const cars = [
       price: '$60/day',
       seats: 4,
       transmission: 'Manual',
-      image: ' ',
+      image: '/src/assets/ford-mustang.jpg',
     },
     {
       id: 4,
@@ -72,7 +72,7 @@ const cars = [
       price: '$55/day',
       seats: 4,
       transmission: 'Automatic',
-      image: 'https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2023/performance/camaro/mov/camaro-wild-cherry-tintcoat.jpg?imwidth=960',
+      image: '/src/assets/camaro.jpg',
     },
     {
       id: 21,
