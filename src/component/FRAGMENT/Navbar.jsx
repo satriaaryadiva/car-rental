@@ -16,7 +16,7 @@ const Navbar = () => {
         <Link to="/" className="text-2xl font-bold">
           Car Rental Service
         </Link>
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md:flex space-x-4   border-orange-600  border-b-4  ">
           <Link to="/" className="px-4 py-2 hover:bg-secondary hover:text-primary rounded transition">
             Home
           </Link>

@@ -4,6 +4,7 @@ const initialState = {
   searchTerm: '',
   selectedCategory: 'All',
   selectedCar: null,
+  days: 1, // Inisialisasi properti days dengan nilai awal 1
   rentalDetails: {},
   totalPrice: 0,
 };
@@ -24,6 +25,9 @@ const carSlice = createSlice({
     clearSelectedCar: (state) => {
       state.selectedCar = null;
     },
+    setDays: (state, action) => {
+      state.days = action.payload;
+    },
     setRentalDetails: (state, action) => {
       state.rentalDetails = action.payload;
     },
@@ -38,6 +42,7 @@ export const {
   setSelectedCategory,
   setSelectedCar,
   clearSelectedCar,
+  setDays,
   setRentalDetails,
   setTotalPrice,
 } = carSlice.actions;

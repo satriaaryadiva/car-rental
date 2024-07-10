@@ -6,7 +6,8 @@ import { Provider } from 'react-redux';
 import MainPage from './component/PAGE/MainPage';
 import RentalForm from './component/FRAGMENT/RentalForm';
 import PaymentQR from './component/FRAGMENT/QRPayment';
-import { store } from './redux/store';
+import store from './redux/store.jsx';
+import ErrorrPage from './component/PAGE/ErrorPage';
 
 const routes = [
   {
@@ -17,12 +18,12 @@ const routes = [
   {
     path: '/rent/:carId',
     element: <RentalForm />,
-    errorElement: <div>Error</div>,
+    errorElement: <ErrorrPage/>,
   },
   {
     path: '/payment/:carId',
     element: <PaymentQR />,
-    errorElement: <div>Error</div>,
+    errorElement: <di>Evrror</di>,
   },
 ];
 

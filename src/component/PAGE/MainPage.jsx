@@ -20,14 +20,14 @@ const Card = ({ car, onClick }) => {
   return (
     <div
       ref={ref}
-      className={`bg-white border-2 m-4 border-secondary rounded-lg shadow-lg p-6 mr-4 w-64 cursor-pointer ${
+      className={`bg-white border-2 m-4 shadow-gray-800   border-secondary rounded-lg   p-6 mr-4 w-64 cursor-pointer ${
         inView ? 'animate__animated animate__fadeInUp' : ''
       }`}
       onClick={() => onClick(car)}
     >
       <img src={car.image} alt={car.name} className="w-full h-40 object-cover mb-4 rounded" />
-      <h3 className="text-xl font-semibold text-text">{car.name}</h3>
-      <p className="text-gray-600 mt-2"><span className="font-semibold">Price:</span> {car.price}</p>
+      <h3 className="text-xl font-semibold text-text">{car.name.substring(0, 20)}</h3>
+      <p className="text-gray-600 mt-2"><span className="font-semibold">Price:</span>Rp {car.price.toLocaleString('id-ID')}</p>
       <p className="text-gray-600"><span className="font-semibold">Seats:</span> {car.seats}</p>
       <p className="text-gray-600"><span className="font-semibold">Transmission:</span> {car.transmission}</p>
     </div>
@@ -88,8 +88,8 @@ const MainPage = () => {
         </select>
       </div>
 
-      {categories.filter(category => category === 'All' || filteredCars.some(car => car.category === category)).map(category => (
-        <section key={category} className="mb-12">
+      { categories.filter(category => filteredCars.some(car => car.category === category)).map(category => (
+        <section key={category} className="mb-12 bg-green-200 rounded  p-3">
           <h2 className="text-2xl font-bold text-text mb-6">{category}</h2>
           <ScrollMenu>
             {filteredCars.filter(car => car.category === category).map(car => (
