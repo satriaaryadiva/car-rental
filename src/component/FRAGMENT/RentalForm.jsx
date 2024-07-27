@@ -43,12 +43,14 @@ const RentalForm = () => {
 
   return (
     <div className="min-h-screen bg-green-200 p-6 flex justify-center items-center">
+
       <div className="bg-white border-2 border-secondary rounded-lg p-6 shadow-lg w-full max-w-lg">
+      <h1 className='text-3xl font-bold m-auto text-center p-4'>form peminjaman</h1>
         <div className="flex flex-col  ">
-          <img src={car.image} alt={car.name} className="w-full h-64 object-cover rounded-lg mb-6" />
-          <h1 className="text-4xl font-bold text-text mb-6  ">{car.name}</h1>
-          <p className="text-gray-600 mb-2"><span className="font-semibold">descripsi : </span> {car.description}</p>
-          <p className="text-gray-600 mb-2"><span className="font-semibold">Transmission:</span> {car.transmission}</p>
+          <img src={car.image} alt={car.name} className="w-full h-64 object-cover  bg-center rounded-lg mb-6" />
+          <h1 className="text-4xl font-bold text-text mb-6  m-auto ">{car.name}</h1>
+          <p className="text-gray-600 mb-2 border-y-2  border-slate-600"><span className="font-bold text-black">Descripsi : </span> {car.description}</p>
+          <p className="text-gray-600 mb-2"><span className="font-semibold text-black " >Transmission:</span> {car.transmission}</p>
           <p><span className="font-semibold text-left">Harga per hari</span> Rp {car.price.toLocaleString('id-ID')}</p>
         </div>
         <form onSubmit={handleSubmit} className="flex flex-col items-center">

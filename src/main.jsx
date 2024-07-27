@@ -8,6 +8,7 @@ import RentalForm from './component/FRAGMENT/RentalForm';
 import PaymentQR from './component/FRAGMENT/QRPayment';
 import store from './redux/store.jsx';
 import ErrorrPage from './component/PAGE/ErrorPage';
+import Banner from './component/ATOM/Banner.jsx';
 
 const routes = [
   {
@@ -24,7 +25,12 @@ const routes = [
     path: '/payment/:carId',
     element: <PaymentQR />,
     errorElement: <di>Evrror</di>,
-  },
+
+  },{
+    path: '/test',
+    element: <Banner/>,
+    errorElement:<ErrorrPage></ErrorrPage>
+  }
 ];
 
 const router = createBrowserRouter(routes);

@@ -89,7 +89,7 @@ const cars = [
     price: 3000000, // Converted from $200/day
     seats: 2,
     transmission: 'Manual',
-    image: 'https://files.porsche.com/filestore/image/multimedia/none/modelseries-911-carrera-intro-image/normal/01a08e09-e407-11eb-80c1-005056bbdc38;sS;twebp/porsche-normal.webp',
+    image: '/src/assets/porsche-911-carrera_100787037_h-289059408.jpg',
     description: 'Mobil sport ikonik dengan performa tinggi dan desain yang elegan.',
   },
   {
@@ -99,7 +99,7 @@ const cars = [
     price: 5250000, // Converted from $350/day
     seats: 2,
     transmission: 'Automatic',
-    image: 'https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/share%20img/Huracan-Model%20Page%20Header.jpg',
+    image: '/src/assets/huracan.jpg',
     description: 'Mobil super dengan performa luar biasa dan desain yang mencolok.',
   },
 
@@ -111,7 +111,7 @@ const cars = [
     price: 1050000, // Converted from $70/day
     seats: 5,
     transmission: 'Automatic',
-    image: 'https://www.bmwusa.com/content/dam/bmw/marketUSA/bmwusa/3-series-sedan/2023/3-series-sedan.png',
+    image: '/src/assets/New-BMW-3-Series-3759226992.jpg',
     description: 'Sedan mewah yang menawarkan kombinasi performa, kenyamanan, dan teknologi.',
   },
   {
@@ -121,7 +121,7 @@ const cars = [
     price: 1125000, // Converted from $75/day
     seats: 5,
     transmission: 'Automatic',
-    image: 'https://www.mbusa.com/content/dam/mb-nafta/us/myco/my22/c/sedan/all-vehicles/2022-C-SEDAN-AVP-DR.png',
+    image: '/src/assets/mercedes  benc c class.jpg',
     description: 'Sedan mewah dengan desain elegan dan fitur-fitur canggih.',
   },
   {
@@ -131,7 +131,7 @@ const cars = [
     price: 975000, // Converted from $65/day
     seats: 5,
     transmission: 'Automatic',
-    image: 'https://www.audiusa.com/content/dam/nemo/us/models/a4/a4my2021/1920x1080_A4_MY2021.jpg',
+    image: '/src/assets/audi a4.jpg',
     description: 'Sedan mewah dengan performa tinggi dan teknologi mutakhir.',
   },
   {
@@ -141,7 +141,7 @@ const cars = [
     price: 1500000, // Converted from $100/day
     seats: 5,
     transmission: 'Automatic',
-    image: 'https://www.lexus.com/cm-img/lexus-one/vehicles/2023/ls/2023-lexus-ls-gallery-exterior-003.jpg',
+    image: '/src/assets/lexus ls.jpg',
     description: 'Sedan mewah dengan fitur premium dan kenyamanan yang tak tertandingi.',
   },
 
@@ -153,7 +153,7 @@ const cars = [
     price: 750000, // Converted from $50/day
     seats: 5,
     transmission: 'Automatic',
-    image: 'https://www.jeep.com/content/dam/fca-brands/na/jeep/en_us/2022/wrangler/vlp/2022-jeep-wrangler-vlp-exterior-hero-01.jpg',
+    image: '/src/assets/jeep wrangler.jpg',
     description: 'SUV tangguh yang cocok untuk petualangan off-road.',
   },
   {
@@ -163,7 +163,7 @@ const cars = [
     price: 975000, // Converted from $65/day
     seats: 7,
     transmission: 'Automatic',
-    image: 'https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2021/suvs/tahoe/mov/01-images/2021-tahoe-masthead-01.jpg',
+    image: '/src/assets/2018-chevrolet-tahoe-custom-midnight-edition-0-1455616348.jpg',
     description: 'SUV besar yang menawarkan kenyamanan dan ruang yang luas.',
   },
   {
@@ -173,7 +173,7 @@ const cars = [
     price: 825000, // Converted from $55/day
     seats: 5,
     transmission: 'Automatic',
-    image: 'https://automobiles.honda.com/-/media/Honda-Automobiles/Vehicles/2023/CR-V/01-vehicle-gallery/MY23-CR-V-VLP-Hero-1440x768.jpg',
+    image: '/src/assets/crv.jpg',
     description: 'SUV kompak dengan ruang yang luas dan efisiensi bahan bakar yang baik.',
   },
   {
@@ -183,7 +183,7 @@ const cars = [
     price: 900000, // Converted from $60/day
     seats: 5,
     transmission: 'Automatic',
-    image: 'https://www.subaru.com/content/dam/subaru/vehicles/outback/2022/gallery/2022_Outback_gallery_01.jpg',
+    image: '/src/assets/subaru.jpg',
     description: 'SUV yang andal dengan kemampuan all-wheel drive untuk segala medan.',
   },
   {
@@ -193,7 +193,7 @@ const cars = [
     price: 1050000, // Converted from $70/day
     seats: 7,
     transmission: 'Automatic',
-    image: 'https://www.toyota.com/imgix/responsive/images/mlp/colorizer/2022/highlander/1J9.png',
+    image: '/src/assets/toyota higlander.jpg',
     description: 'SUV keluarga dengan ruang yang luas dan fitur-fitur canggih.',
   },
 ];

@@ -27,10 +27,7 @@ const carSlice = createSlice({
     },
     setDays: (state, action) => {
       state.days = action.payload;
-    },
-    setRentalDetails: (state, action) => {
-      state.rentalDetails = action.payload;
-    },
+    }, 
     setTotalPrice: (state, action) => {
       state.totalPrice = action.payload;
     }
