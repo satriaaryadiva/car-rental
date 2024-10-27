@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import { setRentalDetails } from '../../redux/slicer/RentalSlicer';
+import { setRentalDetails } from '../../redux/slicer/carSlicer';
 import cars from '../../Service/RentData.service';
 
 const RentalForm = () => {
@@ -50,8 +50,8 @@ const RentalForm = () => {
           <img src={car.image} alt={car.name} className="w-full h-64 object-cover  bg-center rounded-lg mb-6" />
           <h1 className="text-4xl font-bold text-text mb-6  m-auto ">{car.name}</h1>
           <p className="text-gray-600 mb-2 border-y-2  border-slate-600"><span className="font-bold text-black">Descripsi : </span> {car.description}</p>
-          <p className="text-gray-600 mb-2"><span className="font-semibold text-black " >Transmission:</span> {car.transmission}</p>
-          <p><span className="font-semibold text-left">Harga per hari</span> Rp {car.price.toLocaleString('id-ID')}</p>
+          <p className="text-gray-600 mb-2 border-b-2  border-slate-600"><span className="font-bold text-black " >Transmission:</span> {car.transmission}</p>
+          <p className=" text-black mb-2 border-b-2  border-slate-600 font-bold" >Harga per hari<span className="font-semibold text-left "></span> Rp {car.price.toLocaleString('id-ID')}</p>
         </div>
         <form onSubmit={handleSubmit} className="flex flex-col items-center">
           <div className="flex items-center mb-4">
