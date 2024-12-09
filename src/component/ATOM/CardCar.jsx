@@ -1,19 +1,18 @@
 /* eslint-disable react/prop-types */
 // src/components/FRAGMENT/Card.jsx
+import { Suspense } from 'react';
 import { useInView } from 'react-intersection-observer';
 
 const Card = ({ car, onClick }) => {
-  const { ref, inView } = useInView({
+  const { ref } = useInView({
     threshold: 0.1,
     triggerOnce: true,
   });
 
-  return (
+  return (<Suspense fallback={<div>Loading...</div>}>
     <div
       ref={ref}
-      className={`bg-white border-2 m-4 shadow-gray-800 hover:bg-gray-200 border-secondary rounded-lg p-6 mr-4 w-64  cursor-pointer ${
-        inView ? 'animate__animated animate__fadeInUp' : ''
-      }`}
+      className={`bg-white border-2 m-4 shadow-gray-800 hover:bg-gray-200 border-secondary rounded-lg p-6 mr-4 w-64  cursor-pointer`}
       onClick={() => onClick(car)}
     >
       <img src={car.image} alt={`${car.name} image`} className="w-full h-40 object-cover mb-4 rounded" />
@@ -22,6 +21,7 @@ const Card = ({ car, onClick }) => {
       <p className="text-gray-600"><span className="font-semibold">Seats:</span> {car.seats}</p>
       <p className="text-gray-600"><span className="font-semibold">Transmission:</span> {car.transmission}</p>
     </div>
+    </Suspense> 
   );
 };
 

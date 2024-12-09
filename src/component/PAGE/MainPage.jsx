@@ -43,8 +43,7 @@ const MainPage = () => {
         <Navbar />
       </Suspense>
       <Banner>
-        <h1 className="text-4xl font-bold text-white mb-4 animate__animated animate__fadeInDown">Find Your Perfect Ride</h1>
-        <p className="text-lg text-white mb-6 animate__animated animate__fadeInUp">Discover our wide selection of cars and book your journey today!</p>
+         
         <button className="bg-primary font-semibold text-white px-4 py-2 rounded-full animate__animated animate__zoomIn" onClick={() => resultsRef.current.scrollIntoView({ behavior: 'smooth' })}>
           Start Exploring
         </button>

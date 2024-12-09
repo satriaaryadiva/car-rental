@@ -1,8 +1,4 @@
 /* eslint-disable no-undef */
-
-const {
-  default: flattenColorPalette,
-} = require("tailwindcss/lib/util/flattenColorPalette");
  
 
 
