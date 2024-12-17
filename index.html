@@ -1,14 +1,52 @@
-
-
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <!-- Menggunakan Path Ikon yang Tepat -->
+    <link rel="icon" type="image/png" href="/assets/learner.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+
+    <!-- Optimisasi SEO -->
+    <title>Ngerental - Solusi Terbaik untuk Sewa Mobil Anda</title>
+    <meta name="description" content="Ngerental menyediakan layanan rental mobil terbaik dengan berbagai pilihan kendaraan berkualitas untuk kebutuhan perjalanan Anda. Mudah, cepat, dan terpercaya!" />
+    <meta name="keywords" content="rental mobil, sewa mobil, mobil murah, rental mobil terpercaya, kendaraan harian, mobil perjalanan" />
+    <meta name="author" content="Ngerental Team" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Ngerental - Solusi Terbaik untuk Sewa Mobil Anda" />
+    <meta property="og:description" content="Ngerental menyediakan layanan rental mobil terbaik dengan berbagai pilihan kendaraan berkualitas untuk kebutuhan perjalanan Anda." />
+    <meta property="og:image" content="/assets/banner.jpg" />
+    <meta property="og:url" content="https://ngerental.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ngerental - Solusi Terbaik untuk Sewa Mobil Anda" />
+    <meta name="twitter:description" content="Ngerental menyediakan layanan rental mobil terbaik dengan berbagai pilihan kendaraan berkualitas untuk kebutuhan perjalanan Anda." />
+    <meta name="twitter:image" content="/assets/banner.jpg" />
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "CarRental",
+        "name": "Ngerental",
+        "description": "Ngerental menyediakan layanan rental mobil terbaik dengan berbagai pilihan kendaraan berkualitas untuk kebutuhan perjalanan Anda.",
+        "url": "https://ngerental.com",
+        "logo": "/assets/learner.png",
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+62-812-3456-7890",
+          "contactType": "Customer Service"
+        }
+      }
+    </script>
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://ngerental.com" />
   </head>
   <body>
+    <!-- Root Element -->
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
