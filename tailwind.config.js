@@ -1,9 +1,7 @@
 /* eslint-disable no-undef */
- 
-
 
 /** @type {import('tailwindcss').Config} */
- exports = {
+export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -22,4 +20,4 @@
     },
   },
   plugins: [],
-}
+};
