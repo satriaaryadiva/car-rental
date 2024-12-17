@@ -7,7 +7,7 @@ const cars = [
     price: 450000, // Converted from $30/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/toyotacorola.jpg',
+    image: '/assets/toyotacorola.jpg',
     description: 'Sedan yang andal dan efisien, sempurna untuk perjalanan harian.',
   },
   {
@@ -17,7 +17,7 @@ const cars = [
     price: 525000, // Converted from $35/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/civic.jpg',
+    image: ' /assets/civic.jpg',
     description: 'Mobil kompak yang menawarkan kinerja hebat dan efisiensi bahan bakar.',
   },
   {
@@ -27,7 +27,7 @@ const cars = [
     price: 675000, // Converted from $45/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/nissan-altima.jpg',
+    image: ' /assets/nissan-altima.jpg',
     description: 'Sedan ukuran menengah yang dikenal dengan kenyamanan berkendara dan interior luas.',
   },
   {
@@ -37,7 +37,7 @@ const cars = [
     price: 525000, // Converted from $35/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/hyundai-elantra.jpg',
+    image: ' /assets/hyundai-elantra.jpg',
     description: 'Sedan bergaya dengan teknologi canggih dan efisiensi bahan bakar yang baik.',
   },
   {
@@ -47,7 +47,7 @@ const cars = [
     price: 570000, // Converted from $38/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/kiaOptima.jpg',
+    image: ' /assets/kiaOptima.jpg',
     description: 'Sedan yang menawarkan kenyamanan dan performa dengan harga terjangkau.',
   },
   {
@@ -57,7 +57,7 @@ const cars = [
     price: 495000, // Converted from $33/day
     seats: 5,
     transmission: 'Manual',
-    image: '/public/assets/mazda3.jpg',
+    image: ' /assets/mazda3.jpg',
     description: 'Sedan sporty dengan handling yang lincah dan desain yang menarik.',
   },
 
@@ -69,7 +69,7 @@ const cars = [
     price: 900000, // Converted from $60/day
     seats: 4,
     transmission: 'Manual',
-    image: '/public/assets/ford-mustang.jpg',
+    image: ' /assets/ford-mustang.jpg',
     description: 'Mobil otot klasik Amerika dengan performa yang kuat.',
   },
   {
@@ -79,7 +79,7 @@ const cars = [
     price: 825000, // Converted from $55/day
     seats: 4,
     transmission: 'Automatic',
-    image: '/public/assets/camaro.jpg',
+    image: ' /assets/camaro.jpg',
     description: 'Mobil sport dengan desain ramping dan mesin bertenaga.',
   },
   {
@@ -89,7 +89,7 @@ const cars = [
     price: 3000000, // Converted from $200/day
     seats: 2,
     transmission: 'Manual',
-    image: '/public/assets/porsche-911-carrera_100787037_h-289059408.jpg',
+    image: ' /assets/porsche-911-carrera_100787037_h-289059408.jpg',
     description: 'Mobil sport ikonik dengan performa tinggi dan desain yang elegan.',
   },
   {
@@ -99,7 +99,7 @@ const cars = [
     price: 5250000, // Converted from $350/day
     seats: 2,
     transmission: 'Automatic',
-    image: '/public/assets/huracan.jpg',
+    image: ' /assets/huracan.jpg',
     description: 'Mobil super dengan performa luar biasa dan desain yang mencolok.',
   },
 
@@ -111,7 +111,7 @@ const cars = [
     price: 1050000, // Converted from $70/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/New-BMW-3-Series-3759226992.jpg',
+    image: ' /assets/New-BMW-3-Series-3759226992.jpg',
     description: 'Sedan mewah yang menawarkan kombinasi performa, kenyamanan, dan teknologi.',
   },
   {
@@ -121,7 +121,7 @@ const cars = [
     price: 1125000, // Converted from $75/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/mercedes  benc c class.jpg',
+    image: ' /assets/mercedes  benc c class.jpg',
     description: 'Sedan mewah dengan desain elegan dan fitur-fitur canggih.',
   },
   {
@@ -131,7 +131,7 @@ const cars = [
     price: 975000, // Converted from $65/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/audi a4.jpg',
+    image: ' /assets/audi a4.jpg',
     description: 'Sedan mewah dengan performa tinggi dan teknologi mutakhir.',
   },
   {
@@ -141,7 +141,7 @@ const cars = [
     price: 1500000, // Converted from $100/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/lexus ls.jpg',
+    image: ' /assets/lexus ls.jpg',
     description: 'Sedan mewah dengan fitur premium dan kenyamanan yang tak tertandingi.',
   },
 
@@ -153,7 +153,7 @@ const cars = [
     price: 750000, // Converted from $50/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/jeep wrangler.jpg',
+    image: ' /assets/jeep wrangler.jpg',
     description: 'SUV tangguh yang cocok untuk petualangan off-road.',
   },
   {
@@ -163,7 +163,7 @@ const cars = [
     price: 975000, // Converted from $65/day
     seats: 7,
     transmission: 'Automatic',
-    image: '/public/assets/2018-chevrolet-tahoe-custom-midnight-edition-0-1455616348.jpg',
+    image: ' /assets/2018-chevrolet-tahoe-custom-midnight-edition-0-1455616348.jpg',
     description: 'SUV besar yang menawarkan kenyamanan dan ruang yang luas.',
   },
   {
@@ -173,7 +173,7 @@ const cars = [
     price: 825000, // Converted from $55/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/crv.jpg',
+    image: ' /assets/crv.jpg',
     description: 'SUV kompak dengan ruang yang luas dan efisiensi bahan bakar yang baik.',
   },
   {
@@ -183,7 +183,7 @@ const cars = [
     price: 900000, // Converted from $60/day
     seats: 5,
     transmission: 'Automatic',
-    image: '/public/assets/subaru.jpg',
+    image: ' /assets/subaru.jpg',
     description: 'SUV yang andal dengan kemampuan all-wheel drive untuk segala medan.',
   },
   {
@@ -193,7 +193,7 @@ const cars = [
     price: 1050000, // Converted from $70/day
     seats: 7,
     transmission: 'Automatic',
-    image: '/public/assets/toyota higlander.jpg',
+    image: ' /assets/toyota higlander.jpg',
     description: 'SUV keluarga dengan ruang yang luas dan fitur-fitur canggih.',
   },
 ];
