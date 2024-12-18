@@ -37,10 +37,11 @@ const routes = [
 const router = createBrowserRouter(routes);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode> <Analytics> 
+  <React.StrictMode>  
     <Provider store={store}>
       <RouterProvider router={router} />
+      <Analytics/>
     </Provider> 
-     </Analytics>
+    
   </React.StrictMode>
 );
