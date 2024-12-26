@@ -8,7 +8,6 @@ import { setSelectedCar, clearSelectedCar } from '../../redux/slicer/carSlicer.j
 import Banner from '../ATOM/Banner.jsx';
 import Navbar from '../FRAGMENT/Navbar.jsx';
 import Card from '../ATOM/CardCar.jsx';
-import { Analytics } from '@vercel/analytics/next';
 
 const CarDetailModal = lazy(() => import('../FRAGMENT/DetailCar.jsx'));
 
@@ -80,9 +79,8 @@ const MainPage = () => {
           <CarDetailModal car={selectedCar} onClose={handleCloseModal} />
         </Suspense>
       )}
-      <Analytics/>
     </div>
-  
+    
   );
 };
 
