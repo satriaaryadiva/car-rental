@@ -1,8 +1,12 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  root: './', // Lokasi root
-  publicDir: 'public', // Folder public
-});
+  server: {
+    port: 5173,  // Ganti port jika perlu
+    host: 'localhost',  // Pastikan host diatur dengan benar
+    open: true,  // Membuka otomatis di browser saat server dijalankan
+    hmr: true,  // Mengaktifkan hot module replacement (HMR) untuk pengembangan yang lebih cepat
+  },
+})

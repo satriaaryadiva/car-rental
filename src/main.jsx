@@ -9,8 +9,7 @@ import PaymentQR from './component/FRAGMENT/QRPayment';
 import store from './redux/store.jsx';
 import ErrorrPage from './component/PAGE/ErrorPage';
 import Banner from './component/ATOM/Banner.jsx';
-import { Analytics } from '@vercel/analytics/next';
-
+ 
 const routes = [
   {
     path: '/',
